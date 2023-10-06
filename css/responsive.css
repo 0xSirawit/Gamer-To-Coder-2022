@@ -1,0 +1,152 @@
+#icon {
+  display: none;
+}
+
+.navul {
+  position: static;
+}
+
+#gamelist .coninfo {
+  transform: translate(-50%, 25%);
+}
+
+#gamelist .coninfo {
+  transform: translate(-50%, 21%);
+  margin: 0;
+}
+
+#gamelist .card:hover .coninfo {
+  transform: translate(-50%, -50%);
+}
+
+#gamelist .card:hover .detail {
+  height: 130px;
+}
+
+#gamelist .card span {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  #icon {
+    display: block;
+    position: absolute;
+    right: 6%;
+    top: 26px;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.2s ease-out;
+  }
+  #dot {
+    width: auto;
+    height: 35px;
+  }
+  #dot2 {
+    width: auto;
+    height: 35px;
+  }
+  .navul .fade {
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .navul {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transition: all 0.2s ease-out;
+    z-index: -100;
+    background: rgba(34, 34, 34, 0.98);
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+  }
+  #question {
+    font-size: 24px;
+  }
+  .conquiz label {
+    font-size: 16px;
+  }
+  #gamelist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #gamelist .card {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+  }
+  #gamelist .card .name {
+    font-size: 20px;
+  }
+  #gamelist .card span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  nav h2 {
+    font-size: 20px;
+  }
+
+  nav img {
+    width: 40px;
+  }
+
+  .info .title .garenatitle {
+    font-size: 52px;
+  }
+
+  .info .title .getitle {
+    font-size: 48px;
+  }
+
+  .info .subtitle {
+    font-size: 24px;
+  }
+
+  .info .detail {
+    width: 100%;
+  }
+  #dot2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .info .title .garenatitle {
+    font-size: 42px;
+  }
+  #askerlogo {
+    display: none;
+  }
+  #question {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .info .title .getitle {
+    font-size: 40px;
+  }
+
+  .info .subtitle {
+    font-size: 22px;
+  }
+
+  .info .detail {
+    width: 100%;
+    font-size: 16px;
+  }
+  #list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #character {
+    display: none;
+  }
+}
